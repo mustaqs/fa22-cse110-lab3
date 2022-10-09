@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    
+    <title>Pizza Party</title>
+  </head>
+  <link rel ="icon" type = "image/x-icon" href= "icons8-pizza-48.png" />
+  <body>
+    <header>
+        <div> I LOVE PIZZA!</div>
+        
+        <nav>
+            <ul>
+                <li> <a href="#attendees"> Attendees<a></li>
+                <li> <a href="#overview"> Overview<a></li>
+                <li> <a href="#agenda"> Agenda<a></li>
+                <li> <a href="#minutes"> Minutes<a></li>
+                <li> <a href="#action items"> Action Items<a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Pizza Party Meeting Minutes</h1>
+         <img 
+         src="delish-homemade-pizza-horizontal-1542312378.png" 
+         alt="Pizza"
+         width="250"
+         >
+         <section>
+            <h2 id="atendees">Attendees</h2>
+            <ol>
+                <li> John</li>  
+                <li> Victoria </li>
+                <li> Mathew</li>
+                <li> Jennifer</li>
+                <li> Steve</li>
+        
+            </ol> 
+            <span> Thank you all for attending!</span>
+         </section>
+
+         <section>
+            <h2 id="overview"> Overview</h2>
+            <p> This meeting was conducted on <b class="date"> October 4th, 2022</b> to discuss
+            the pizza party to take place on <b class="date">October 30th, 2022</b> in honor of the
+            departure of our oldest team member, Greg. 
+            </p>
+         </section>
+         <section>
+            <h2 id="agenda"> Agenda </h2>
+               <p> We want to plan how many party attendees we will have in order to determine how many 
+                pizzas to order. We need to discuss the time and venue of the party. 
+                We want to discuss a gift for Greg. We need to review the budget for the party. 
+            </p> 
+         </section>
+
+         <section> 
+            <h2 id = "minutes"> Minutes</h2>
+            <ul>
+                <li> It is very important that <strong>Greg does not find out about this party!</strong>
+                <em>It is a surprise!</em>
+                </li>
+                <li> 
+                    In terms of attendance, Victoria has an update:
+                    <br> Everyone will be in attendance except Corey. He is on PTO that week. 
+                </li>
+                <li> 
+                    We need pizzas for 36 people, plus some extras. Jennifer will look into
+                    pizza places.
+                </li>
+                <li> 
+                    Venue suggestions: 
+                    <br> Community center room off campus
+                    <br> Office dining area 
+                    <br> Kevin has offered his house. Has entertaining space.
+                    <br> Decision was made to use Community Center room off campus
+                </li>
+                <li> 
+                    Budget given to us for this party is <b> $1500.</b>
+                    <details>
+                        <summary>Budget Breakdown</summary>
+                       Pizzas, drinks and snacks: $600
+                        <br> Venue fees: $300
+                        <br> Gift: $600
+                    </details>
+                </li>
+                <li> 
+                    Meeting attendees decided a good gift would be an <i>Apple Watch</i>. This allows the party 
+                    to stay under budget.
+                </li>
+                <li> 
+                    Party will commence at 5:30pm on October 30th. Venue will be rented until 9pm.
+                </li>
+            </ul>
+         </section>
+         <section>
+            <h2 id="action items"> Action Items</h2>
+                <ol> 
+                    <li> John will confirm the community center availability and pay the deposit.</li>
+                    <li> Victoria will confirm guestlist, look into party favors and send out invites. </li>
+                    <li> Mathew will purchase the <i>Apple Watch</i>.</li>
+                    <li> Jennifer will get the drinks and snacks.</li>
+                    <li> Steve will bring Greg to the venue on a false pretense. </li>
+                </ol>
+                <h3> Note: </h3>
+                <strong> Keep receipts for all purchases to submit to HR for reimbursement.</strong>
+         </section>
+
+         <section>
+            <h2> Greg's favorite song!</h2>
+            <audio
+            controls
+            src="Miley Cyrus - Party In The U.S.A. (Official Video).mp3">
+            </audio>
+            <h2> Music video</h2>
+            <video controls width="450">
+
+                <source src="Y2Mate.is - Miley Cyrus - Party In The U.S.A. (Official Video)-M11SvDtPBhA-720p-1655377927215.mp4"
+                        type="video/mp4">
+            
+                
+            </video>
+         </section>
+         <section>
+            <hr>
+         <h2> Brief Survey</h2>
+         <form action="" >
+            <div>
+                <label for="name">Enter your name:</label>
+                <input type="text" name ="name">
+            </div>
+            <br>
+            <div>
+                <label for="Date">Last time you had pizza:</label>
+                <input type="date" id="start" name ="pizza-date" value="2022-10-08" min="2018-01-01" max="2022-12-31">
+            </div>
+            <br>
+            <fieldset>
+                <legend> Your favorite pizza topping?</legend>
+                <input type="radio" id="Pepperoni" name="topping" value ="p">
+                <label for="Pepperoni">Pepperoni</label><br>
+
+                <input type="radio" id = "Meat Lovers" name = "topping" value = "ml">
+                <label for="Meat Lovers">Meat Lovers</label><br>
+
+                <input type="radio" id="Vegetarian" name ="topping" value="v">
+                <label for="Vegetarian">Vegetarian</label><br>
+
+                <input type="radio" id="Cheese" name="topping" value="c">
+                <label for="Cheese">Cheese</label><br>
+
+                <input type="radio" id="All of the above" name ="topping" value="a">
+                <label for="All of the above">All of the above</label><br>
+            </fieldset>
+            <br>
+            <label for="my-pizza-place">Choose your favorite pizza place:</label>
+            <input list="pizza-choices" id="my-pizza-place" name="my-pizza-place" />
+            <datalist id="pizza-choices">
+                <option value="Pizza Hut"></option>
+                <option value="Dominos"></option>
+                <option value="Little Caesars"></option>
+                <option value="California Pizza Kitchen"></option>
+                <option value="Papa Johns"></option>
+                <option value="Other"></option>
+            </datalist>
+            <br>
+            <br>
+            <fieldset>
+                <legend> Pizza places you have been to?</legend>
+                <input type="checkbox" id="Pizza Hut" name="place" value ="ph">
+                <label for="Pizza Hut">Pizza Hut</label><br>
+
+                <input type="checkbox" id = "Dominos" name = "place" value = "d">
+                <label for="Dominos">Dominos</label><br>
+
+                <input type="checkbox" id="Little Caesars" name ="place" value="lc">
+                <label for="Little Caesars">Little Caesars</label><br>
+
+                <input type="checkbox" id="California Pizza Kitchen " name="place" value="cpk">
+                <label for="California Pizza Kitchen">California Pizza Kitchen</label><br>
+
+                <input type="checkbox" id="Papa Johns" name ="place" value="pj">
+                <label for="Papa Johns">Papa Johns</label><br>
+            </fieldset>
+            <br>
+            <label for="prize-select">Choose a Prize:</label>
+
+            <select name="prize" id="prize-select">
+            <option value="">--Please choose a prize--</option>
+            <option value="Amazon Gift Card">Amazon Gift Card</option>
+            <option value="Best Buy Gift Card">Best Buy Gift Card</option>
+            <option value="Nike Gift Card">Nike Gift Card</option>
+            <option value="Pizza Hut Gift Card">Pizza Hut Gift Card</option>
+            </select>
+
+            <br>
+            <br>
+            <label for="feedback"> Tell us what we can do to improve this page:</label><br>
+            <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <button class="Pizza coupon"
+            type="button">
+            Pizza Coupon!
+            </button>
+
+
+         </form>
+
+         </section>
+    </main>
+    <hr>
+    <footer>
+        <h6> Created by Mustansir Taquee for CSE 110 at UC San Diego. Any similarities to persons actual or fictional are purely coincidental. Not intended for resale. </h6>
+
+
+    </footer>
+  </body>
+</html>
