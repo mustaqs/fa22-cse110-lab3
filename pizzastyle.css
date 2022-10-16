@@ -19,4 +19,8 @@ h2#overview {
 
 *.bold {
     color:rgb(255, 0, 0)
+    
+}
+h2 {
+    text-decoration: black underline;
 }
