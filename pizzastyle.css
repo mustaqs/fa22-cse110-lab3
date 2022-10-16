@@ -1,6 +1,6 @@
 /* Add background color to entire body of HTML file. */
 body{
-    background-color: lightcyan;
+    background-color: white;
 }
 /* Used to configure boxes around specific HTML elements */
 .box {
@@ -9,4 +9,7 @@ body{
     border-color: #000000;
     border-width: 1px;
     border-radius: 10px;
+}
+h2#overview {
+    color:hsl(196, 100%, 38%)
 }
