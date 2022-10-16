@@ -1,0 +1,12 @@
+/* Add background color to entire body of HTML file. */
+body{
+    background-color: lightcyan;
+}
+/* Used to configure boxes around specific HTML elements */
+.box {
+    background-color: #db574b;
+    border-style: groove;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 10px;
+}
