@@ -1,5 +1,5 @@
 ---
-name: 'Issue: Lab 3'
+name: Lab 3
 about: This issue template is for Lab 3 CSE 110
 title: ''
 labels: ''
