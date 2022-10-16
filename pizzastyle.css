@@ -13,3 +13,10 @@ body{
 h2#overview {
     color:hsl(196, 100%, 38%)
 }
+*.header {
+    color:hsl(196, 100%, 38%)
+}
+
+*.bold {
+    color:rgb(255, 0, 0)
+}
