@@ -10,6 +10,7 @@ h2#overview {
 }
 *.header {
     color:hsl(196, 100%, 38%)
+    
 }
 
 *.bold {
@@ -22,5 +23,11 @@ h2 {
 }
 
 a[href^="#"]{
-    background-color: gold;
+    background-color: rgb(50, 175, 84);
+}
+.nav a:hover {
+    background: #1565C0
+}
+h2:active{
+    background: #eee;
 }
