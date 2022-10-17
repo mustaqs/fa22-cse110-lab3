@@ -126,4 +126,9 @@ ol.names > li {
    padding-bottom: .5cm;
    padding-left: .5cm;
    padding-right: .5cm;
+   
+}
+ol.names ~ span {
+  color: green;
+  
 }
