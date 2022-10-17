@@ -136,7 +136,7 @@ h3.note + strong{
   color: red;
 }
 img.pizzaImage {
-  posiiton: relative;
+  position: relative;
 }
 ol.names {
   position: static;
