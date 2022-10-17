@@ -132,3 +132,6 @@ ol.names ~ span {
   color: green;
   
 }
+h3.note + strong{
+  color: red;
+}
