@@ -119,3 +119,6 @@ ul.bullets li {
     margin-left: 4cm;
     margin-right: 4cm;
 }
+ol.names > li {
+   margin: auto;
+}
