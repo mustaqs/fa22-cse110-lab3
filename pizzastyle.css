@@ -118,7 +118,12 @@ ul.bullets li {
     margin-bottom: 2cm;
     margin-left: 4cm;
     margin-right: 4cm;
+    padding: .5cm .5cm .5cm .5cm;
 }
 ol.names > li {
    margin: auto;
+   padding-top: .5cm;
+   padding-bottom: .5cm;
+   padding-left: .5cm;
+   padding-right: .5cm;
 }
