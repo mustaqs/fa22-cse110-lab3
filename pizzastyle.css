@@ -135,3 +135,9 @@ ol.names ~ span {
 h3.note + strong{
   color: red;
 }
+img.pizzaImage {
+  posiiton: relative;
+}
+ol.names {
+  position: static;
+}
